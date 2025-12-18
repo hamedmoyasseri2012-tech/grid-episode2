@@ -7,24 +7,26 @@ body {
   background-color: #edf2f8;
   height: 100vh;
   align-content: center;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; 
+  align-items: center; 
   padding: 48px;
 }
 .grid-container {
   display: grid;
+  height: 100%;
   grid-template-columns: repeat(4, 1fr);
   background-color: #edf2f8;
   justify-content: center;
-  align-content: center;
+  align-content: center; 
   gap: 25px;
   width: 100%;
 }
 .Part1 {
   display: flex;
   flex-direction: column;
-  grid-column: 2/3;
+  grid-column: 1/3;
   grid-row: 1/2;
+
   background-color: #7541c9;
   border-radius: 12px;
   padding: 24px;
@@ -62,12 +64,11 @@ body {
 .Part2 {
   display: flex;
   flex-direction: column;
-  grid-column: 3/4;
+  grid-column: 2/3;
   grid-row: 1/2;
   background-color: #595c6f;
-  gap: 10px;
+  gap: 20px;
   border-radius: 12px;
-  padding: 20px;
   width: 253.5px;
   height: 288.2px;
 }
@@ -93,32 +94,94 @@ body {
 .Part3 {
   display: flex;
   flex-direction: column;
-  grid-column: 4/5;
+  grid-column: 3/5;
   grid-row: 1/3;
   background-color: white;
   border-radius: 12px;
-  padding: 20px;
   width: 250px;
-  height: 532.6px;
+  height: 535.6px;
 }
 .head3 {
   display: flex;
   flex-direction: row;
   gap: 20px;
+  padding: 10px;
 }
 .p5 {
   color: #626878;
-  padding: 10px;
 }
 .p6 {
   color: #5d6774;
-  padding: 10px;
 }
 .paragraph5 {
   color: #56505c;
   padding: 10px;
 }
 .paragraph6 {
+  color: #bbc2ce;
+  padding: 10px;
+}
+
+/* Part4 */
+.Part4 {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: white;
+  border-radius: 12px;
+  width: 253px;
+  height: 266px;
+}
+.head4 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px;
+}
+.p7 {
+  color: #626878;
+}
+.p8 {
+  color: #5d6774;
+}
+.paragraph7 {
+  color: #56505c;
+  padding: 10px;
+}
+.paragraph8 {
+  color: #bbc2ce;
+  padding: 10px;
+}
+
+/* Part5 */
+.Part5 {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2/4;
+  grid-row: 2/3;
+  background-color: #19212e;
+  border-radius: 12px;
+  width: 539px;
+  height: 266px;
+}
+.head5 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 10px;
+}
+.p9 {
+  color: white;
+}
+.p10 {
+  color: #5d6774;
+}
+.paragraph9 {
+  color: white;
+  padding: 10px;
+}
+.paragraph10 {
   color: #bbc2ce;
   padding: 10px;
 }
